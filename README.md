@@ -10,4 +10,4 @@
 
 ## 講義資料
 
-1.  Git, GitHub って何？
+1. Git, GitHub って何？
