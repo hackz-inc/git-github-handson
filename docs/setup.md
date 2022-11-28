@@ -5,6 +5,11 @@
 まずは、[GitHub](https://github.com)にアクセスします。  
 ユーザーネーム、メールアドレス、パスワードなどの必要事項を入力し、アカウントを作成します。
 
+https://github.com/[自分のユーザーネーム]
+へアクセスして以下の画像のように自身のページが表示されたら完了です！
+
+TODO: 画像の挿入
+
 ## 【Git のインストール】
 
 ### Mac の場合
@@ -61,6 +66,16 @@ $ git config --global user.name [設定したユーザーネーム]
 $ git config --global user.email [設定したメールアドレス]
 ```
 
+以下のコマンドを実行して正しく設定されているか確認できれば OK です！
+
+```bash
+$ cat ~/.gitconfig
+----------------------------------------
+[user]
+    name = take-cantik
+    email = take.cantik17@gmail.com
+```
+
 ## 【終わりに】
 
 ここまで済んだら準備は万端です！  
@@ -108,7 +123,10 @@ $ ssh-keygen -t rsa
 
 [ssh の設定画面](https://github.com/settings/ssh)から公開鍵の設定ができます。
 
-開いたら画面右上の「New SSH key」を押します。  
+開いたら画面右上の「New SSH key」を押します。
+
+TODO: 画像の挿入
+
 「title」に公開鍵名(自分の名前とかなんでも)、「key」に公開鍵の中身を入れます。  
 公開鍵の中身については、以下の操作をします。
 
@@ -125,4 +143,4 @@ $ cat id_rsa.pub
 $ ssh -T git@github.com
 ```
 
-そして「Hi (account 名)! You've successfully authenticated, but GitHub does not provide shell access.」と返ってきたら接続完了です。
+そして「Hi (ユーザーネーム)! You've successfully authenticated, but GitHub does not provide shell access.」と返ってきたら接続完了です。
