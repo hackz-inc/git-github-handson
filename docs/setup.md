@@ -8,7 +8,8 @@
 https://github.com/[自分のユーザーネーム]
 へアクセスして以下の画像のように自身のページが表示されたら完了です！
 
-TODO: 画像の挿入
+<img width="600" alt="スクリーンショット 2022-11-28 17 06 38" src="https://user-images.githubusercontent.com/50654077/204229886-41a87717-e4ca-407c-a095-6f1970f479d1.png">
+(表示はいじっているので少し違います)
 
 ## 【Git のインストール】
 
@@ -49,11 +50,11 @@ $ sudo apt-get install git
 以下のコマンドを実行し、バージョンが表示されれば完了です！
 
 ```bash
-git --version
+$ git --version
 ```
 
-ex.)
-TODO: 画像の追加
+ex.)  
+<img width="300" alt="スクリーンショット 2022-11-28 12 41 48" src="https://user-images.githubusercontent.com/50654077/204230307-3309499a-2a34-48b3-929f-5edde59e68a6.png">
 
 ## 【Git 構成ファイルのセットアップ】
 
@@ -81,8 +82,7 @@ $ cat ~/.gitconfig
 ここまで済んだら準備は万端です！  
 お疲れ様でした！
 
-以下のファイルに講義でよく使う用語の意味をまとめたので、こちらも合わせて見ておくとよりスムーズに進むと思います！
-words.md TODO: ファイルの作成後、リンクを貼る
+[こちら](words.md)に講義でよく使う用語の意味をまとめたので、こちらも合わせて見ておくとよりスムーズに進むと思います！
 
 ## 【おまけ】
 
@@ -125,7 +125,7 @@ $ ssh-keygen -t rsa
 
 開いたら画面右上の「New SSH key」を押します。
 
-TODO: 画像の挿入
+<img width="600" alt="スクリーンショット 2022-11-28 17 34 25" src="https://user-images.githubusercontent.com/50654077/204231215-adebc425-08a2-4ada-a07a-ff20dad036a0.png">
 
 「title」に公開鍵名(自分の名前とかなんでも)、「key」に公開鍵の中身を入れます。  
 公開鍵の中身については、以下の操作をします。
