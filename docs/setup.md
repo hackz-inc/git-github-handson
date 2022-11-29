@@ -206,7 +206,7 @@ $ cat id_rsa.pub
 これを実行すると公開鍵の中身が出力されるので、内容をすべてコピーします。  
 コピーが完了したら「key」の欄に貼り付けし(この時スペースなどが入っていないことに注意)、「Add key」を押すとパスワードを求められるので入力します。
 
-<img width="1679" alt="スクリーンショット 2022-11-29 14 42 08" src="https://user-images.githubusercontent.com/50654077/204448499-16704da6-ce6d-413d-82ce-a0ea443fa2d3.png">
+<img width="600" alt="スクリーンショット 2022-11-29 14 42 08" src="https://user-images.githubusercontent.com/50654077/204448499-16704da6-ce6d-413d-82ce-a0ea443fa2d3.png">
 
 接続が完了したか確かめます。以下のコマンドを入力します。
 

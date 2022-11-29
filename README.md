@@ -11,4 +11,7 @@
 ## 講義資料
 
 1. [Git, GitHub って何？](lectures/01.md)
-2. [基本的な使い方](lectures/02.md)
+2. [基本的な使い方 その１](lectures/02.md)  
+   リポジトリ作成編
+3. [基本的な使い方 その 2](lectures/03.md)  
+   頻出コマンド編
