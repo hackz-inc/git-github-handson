@@ -142,16 +142,16 @@ TODO: 画像の挿入
 3. Select scopes ではトークンのアクセス権限を設定します。
    今回は「repo」にチェックが入っていれば OK です。
 
-TODO: 画像の挿入
+<img width="600" alt="スクリーンショット 2022-11-29 13 46 59" src="https://user-images.githubusercontent.com/50654077/204448056-3113ed1c-ec9d-444c-a687-0808746d8b21.png">
 
 ここまで入力が終わったら一番下の「Generate token」を押してトークンを作成します。
 
-TODO: 画像の挿入
+<img width="600" alt="スクリーンショット 2022-11-29 13 56 37" src="https://user-images.githubusercontent.com/50654077/204448093-ae584bf6-7883-488f-a846-4b2531950bcf.png">
 
 確定すると、以下の画像のようにトークンが表示されます。  
 このトークンは画面を移動すると二度と見れなくなるので、このタイミングで必ず保管しておきます。
 
-TODO: 画像の挿入
+<img width="600" alt="スクリーンショット 2022-11-29 13 56 56" src="https://user-images.githubusercontent.com/50654077/204448125-e62b05db-ae44-4be3-b2ea-cbee344b4c48.png">
 
 以降はリモートリポジトリとの通信の際にパスワードを求められたら、この個人アクセストークンを使用します。
 
