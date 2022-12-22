@@ -144,7 +144,8 @@ GitHub 公式では HTTPS を推奨しています。
 「Personal access tokens」のタブ(1)から「Tokens」を選択し(2)、  
 「Generate new token」(3)から「Generate new token (classic)」を選択します。(4)
 
-TODO: 画像の挿入
+<img width="600" alt="スクリーンショット 2022-11-29 13 37 26" src="https://user-images.githubusercontent.com/50654077/209042891-ed697489-3ec4-4de6-9617-2d4c96159ea4.png">
+
 
 フォームに必要な情報を入力していきます。
 
