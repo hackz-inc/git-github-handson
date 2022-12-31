@@ -21,7 +21,7 @@
 https://github.com/[自分のユーザーネーム]
 へアクセスして以下の画像のように自身のページが表示されたら完了です！
 
-<img width="600" alt="スクリーンショット 2022-11-28 17 06 38" src="https://user-images.githubusercontent.com/50654077/204229886-41a87717-e4ca-407c-a095-6f1970f479d1.png">
+<img width="800" alt="スクリーンショット 2022-11-28 17 06 38" src="https://user-images.githubusercontent.com/50654077/204229886-41a87717-e4ca-407c-a095-6f1970f479d1.png">
 
 (表示はいじっているので少し違います)
 
@@ -144,8 +144,7 @@ GitHub 公式では HTTPS を推奨しています。
 「Personal access tokens」のタブ(1)から「Tokens」を選択し(2)、  
 「Generate new token」(3)から「Generate new token (classic)」を選択します。(4)
 
-<img width="600" alt="スクリーンショット 2022-11-29 13 37 26" src="https://user-images.githubusercontent.com/50654077/209042891-ed697489-3ec4-4de6-9617-2d4c96159ea4.png">
-
+<img width="800" alt="スクリーンショット 2022-11-29 13 37 26" src="https://user-images.githubusercontent.com/50654077/209042891-ed697489-3ec4-4de6-9617-2d4c96159ea4.png">
 
 フォームに必要な情報を入力していきます。
 
@@ -156,16 +155,16 @@ GitHub 公式では HTTPS を推奨しています。
 3. Select scopes ではトークンのアクセス権限を設定します。
    今回は「repo」にチェックが入っていれば OK です。
 
-<img width="600" alt="スクリーンショット 2022-11-29 13 46 59" src="https://user-images.githubusercontent.com/50654077/204448056-3113ed1c-ec9d-444c-a687-0808746d8b21.png">
+<img width="800" alt="スクリーンショット 2022-11-29 13 46 59" src="https://user-images.githubusercontent.com/50654077/204448056-3113ed1c-ec9d-444c-a687-0808746d8b21.png">
 
 ここまで入力が終わったら一番下の「Generate token」を押してトークンを作成します。
 
-<img width="600" alt="スクリーンショット 2022-11-29 13 56 37" src="https://user-images.githubusercontent.com/50654077/204448093-ae584bf6-7883-488f-a846-4b2531950bcf.png">
+<img width="800" alt="スクリーンショット 2022-11-29 13 56 37" src="https://user-images.githubusercontent.com/50654077/204448093-ae584bf6-7883-488f-a846-4b2531950bcf.png">
 
 確定すると、以下の画像のようにトークンが表示されます。  
 このトークンは画面を移動すると二度と見れなくなるので、このタイミングで必ず保管しておきます。
 
-<img width="600" alt="スクリーンショット 2022-11-29 13 56 56" src="https://user-images.githubusercontent.com/50654077/204448125-e62b05db-ae44-4be3-b2ea-cbee344b4c48.png">
+<img width="800" alt="スクリーンショット 2022-11-29 13 56 56" src="https://user-images.githubusercontent.com/50654077/204448125-e62b05db-ae44-4be3-b2ea-cbee344b4c48.png">
 
 以降はリモートリポジトリとの通信の際にパスワードを求められたら、この個人アクセストークンを使用します。
 
@@ -208,7 +207,7 @@ $ ssh-keygen -t rsa
 
 開いたら画面右上の「New SSH key」を押します。
 
-<img width="600" alt="スクリーンショット 2022-11-28 17 34 25" src="https://user-images.githubusercontent.com/50654077/204231215-adebc425-08a2-4ada-a07a-ff20dad036a0.png">
+<img width="800" alt="スクリーンショット 2022-11-28 17 34 25" src="https://user-images.githubusercontent.com/50654077/204231215-adebc425-08a2-4ada-a07a-ff20dad036a0.png">
 
 「title」に公開鍵名、「key」に公開鍵の中身を入れます。  
 公開鍵の中身については、以下のコマンドで確認することができます。
@@ -220,7 +219,7 @@ $ cat id_rsa.pub
 これを実行すると公開鍵の中身が出力されるので、内容をすべてコピーします。  
 コピーが完了したら「key」の欄に貼り付けし(この時スペースなどが入っていないことに注意)、「Add key」を押すとパスワードを求められるので入力します。
 
-<img width="600" alt="スクリーンショット 2022-11-29 14 42 08" src="https://user-images.githubusercontent.com/50654077/204448499-16704da6-ce6d-413d-82ce-a0ea443fa2d3.png">
+<img width="800" alt="スクリーンショット 2022-11-29 14 42 08" src="https://user-images.githubusercontent.com/50654077/204448499-16704da6-ce6d-413d-82ce-a0ea443fa2d3.png">
 
 接続が完了したか確かめます。以下のコマンドを入力します。
 
