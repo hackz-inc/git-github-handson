@@ -29,5 +29,5 @@
 7. [こんな時どうする](lectures/07.md)  
    ハッカソンなどでよく起きるようなシーンをまとめました
 8. [GitHub の便利な機能](lectures/08.md)
-9. [Git, GitHub チートシート](lectures/09.md)
+9. [Git, GitHub チートシート](lectures/09.md)  
    困ったらこのページを見てみよう
